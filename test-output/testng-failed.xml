@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="basic.Demo1">
+        <methods>
+          <include name="rightClick"/>
+          <include name="scrollingWebTable"/>
+          <include name="display"/>
+          <include name="screenShot"/>
+          <include name="verticalscroll"/>
+          <include name="iframe"/>
+          <include name="alertPopUp"/>
+          <include name="close"/>
+          <include name="mouseHover"/>
+          <include name="dropDown"/>
+          <include name="switchWindow"/>
+          <include name="Launch"/>
+        </methods>
+      </class> <!-- basic.Demo1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
